@@ -1,12 +1,19 @@
 import React from 'react'
 import { useGlobalContext } from '../context/context'
 const Buttons = () => {
-  const {category } = useGlobalContext()
+  const {categories, stateCategory, handleClick } = useGlobalContext()
   return (
     <div className='btn-container'>
       {
-      category.map((item, index)=>{
-        return <button className='btn project-btn' key={index}>{item}</button>
+      categories.map((category, index)=>{
+        return <button 
+        type='button' 
+        name='cate'
+        value={stateCategory}
+          className={category === stateCategory ? `btn project-btn active` : "btn project-btn"} key={index} 
+        onClick={(e)=>handleClick(e, category)
+        }
+        >{category}</button>
       })}
     </div>
   )

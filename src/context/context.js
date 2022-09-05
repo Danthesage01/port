@@ -10,15 +10,20 @@ const DanProvider = ({children}) =>{
 })
 const [projects, setProjects] = useState(data)
 const [darkMode, setDarkMode] = useState("dark-mode")
-  const category = projects.reduce((total, item) => {
+  const allCategories = projects.reduce((total, item) => {
     if (!total.includes(item.category)) {
       total.push(item.category)
     }
     return total
   }, ["ALL"])
-const [categories, setCategories] = useState(category)
+const [categories, setCategories] = useState(allCategories)
 const [readMore, setReadMore] = useState(false)
+const [stateCategory, setCategory] = useState("ALL")
 
+  const handleClick = (e, category) => {
+    setCategory(e.target.textContent)
+    filterProjects(category)
+  }
 const toggleMode = () =>{
   if(darkMode === "light-mode"){
     setDarkMode("dark-mode")
@@ -36,6 +41,17 @@ const handleChange = (e) =>{
     }
   })
 }
+
+const filterProjects = (cat)=>{
+  if(cat === "ALL"){
+    setProjects(data)
+    return
+  }
+ const newProjects = data.filter(project=>project.category === cat)
+  setProjects(newProjects)
+}
+
+
   
 return(
   <DanContext.Provider value={{
@@ -47,11 +63,12 @@ return(
     toggleMode,
     projects,
     setProjects,
-    category,
     categories,
     setCategories, 
     readMore, 
-    setReadMore
+    setReadMore,
+    handleClick,
+    stateCategory
     }}>
     {children}
   </DanContext.Provider>

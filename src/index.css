@@ -429,6 +429,9 @@ margin-bottom: 0;
 .project-btn{
 font-size: .7rem;
 }
+.active{
+  background: var(--primary-8);
+}
 /* 
 =================
 About
@@ -563,6 +566,9 @@ border: 1px solid var(--primary-5);
 background: var(--white);
 text-align: center;
 }
+.card h4{
+  padding-top: .5rem ;
+}
 .single-project{
   display: grid;
   place-items: center;
@@ -585,6 +591,8 @@ text-align: center;
   color: var(--black);
   font-size: 1em;
   text-transform: capitalize;
+  font-style: italic;
+  font-weight: 500;
 }
 .single-card-footer {
   background: var(--main-black);
