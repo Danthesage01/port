@@ -53,16 +53,6 @@ const data = [
   },
   {
     id: 6,
-    category: "JAVASCRIPT",
-    image: "/images/dog-main.jpg",
-    title: "Breed of Dogs",
-    description: `I built the Breed of Dogs App to showcase my knowledge and understanding of AJAX and JavaScript (ES6+) in consuming REST API in developing useful software. The app features pagination, darkmode, top scroll and single-page rendering.I also used HTML5 & CSS Grid to make the app fully responsive.`,
-    github: "https://github.com/Danthesage01/dogAPI",
-    url: "https://dogssapi.netlify.app/",
-    technology: "HTML5, CSS3, & JavaScript"
-  },
-  {
-    id: 7,
     category: "HTML & CSS",
     image: "/images/shoe-main.jpg",
     title: "Shoe Vendor",
@@ -70,6 +60,16 @@ const data = [
      CSS3 to develop modern, responsive and user-friendly websites, landing pages and web apps. The Shoe Vendor website was designed mainly with CSS Float and Animation. Also, I integrated some JavaScript concepts and functions to ensure the website fully dynamically and interactive.`,
     github: "https://github.com/Danthesage01/shoe-vendor",
     url: "https://shoe-vendor.netlify.app",
+    technology: "HTML5, CSS3, & JavaScript"
+  },
+  {
+    id: 7,
+    category: "JAVASCRIPT",
+    image: "/images/color-main.jpg",
+    title: "Color Scheme",
+    description: `I built the color scheme app to showcase my knowledge and understanding of AJAX in JavaScript. I consumed a color schemed REST API in developing the project and massage the data to build a interactive and responsive user interface. I also used HTML5 & CSS flexbox to make the app fully responsive.`,
+    github: "https://github.com/Danthesage01/color-scheme-project",
+    url: "https://scheme-color.netlify.app",
     technology: "HTML5, CSS3, & JavaScript"
   },
   {
@@ -82,18 +82,16 @@ const data = [
     github: "https://github.com/Danthesage01/shoes-reviews",
     url: "https://r-shoes-reviews.netlify.app/",
     technology: "HTML5, CSS3, & ReactJS"
-
   },
   {
     id: 9,
     category: "JAVASCRIPT",
-    image: "/images/color-main.jpg",
-    title: "Color Scheme",
-    description: `I built the color scheme app to showcase my knowledge and understanding of AJAX in JavaScript. I consumed a color schemed REST API in developing the project and massage the data to build a interactive and responsive user interface. I also used HTML5 & CSS flexbox to make the app fully responsive.`,
-    github: "https://github.com/Danthesage01/color-scheme-project",
-    url: "https://scheme-color.netlify.app",
+    image: "/images/dog-main.jpg",
+    title: "Breed of Dogs",
+    description: `I built the Breed of Dogs App to showcase my knowledge and understanding of AJAX and JavaScript (ES6+) in consuming REST API in developing useful software. The app features pagination, darkmode, top scroll and single-page rendering.I also used HTML5 & CSS Grid to make the app fully responsive.`,
+    github: "https://github.com/Danthesage01/dogAPI",
+    url: "https://dogssapi.netlify.app/",
     technology: "HTML5, CSS3, & JavaScript"
-
   },
   {
     id: 10,
