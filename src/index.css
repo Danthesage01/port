@@ -413,6 +413,7 @@ Projects
 }
 .active {
   background: var(--primary-8);
+  color: #d1e0f7;
 }
 /* 
 =================
