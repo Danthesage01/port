@@ -19,14 +19,13 @@ const data = [
     github: "https://github.com/Danthesage01/ecommerce-shoe-vendor",
     url: "https://ecommerce-sv.netlify.app",
     technology: "HTML5, CSS3, JavaScript & ES6+ Modules"
-  },  
-   {
+  },
+  {
     id: 3,
     category: "REACT",
     image: "/images/shoe-main.jpg",
     title: "Shoe Market",
-    description: `I developed the Shoe Market to showcase my knowledge and understanding of ReactJS and Javascript in developing
-            modern, responsive and user-friendly single-page applications. I used create react-app.`,
+    description: `I developed the Shoe Market to showcase my knowledge and understanding of ReactJS and Javascript in developing modern, responsive and user-friendly single-page applications. I used React Hooks such as useState and useEffect alongside conditional rendering to create the app.`,
     github: "https://github.com/Danthesage01/shoes",
     url: "https://calm-shoes.netlify.app/",
     technology: "HTML5, CSS3, & ReactJS"
