@@ -1,24 +1,24 @@
 import React,  {useContext, useState} from "react";
 import data from "../data.js"
-
-
 const DanContext = React.createContext()
 
 const DanProvider = ({children}) =>{
-const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState({
   name: "",
   email: "",
   message:""
 })
-const [darkMode, setDarkMode] = useState("dark-mode")
 const [projects, setProjects] = useState(data)
-
-const category = projects.reduce((total, item) => {
+const [darkMode, setDarkMode] = useState("dark-mode")
+  const category = projects.reduce((total, item) => {
     if (!total.includes(item.category)) {
       total.push(item.category)
     }
     return total
   }, ["ALL"])
+const [categories, setCategories] = useState(category)
+const [readMore, setReadMore] = useState(false)
+
 const toggleMode = () =>{
   if(darkMode === "light-mode"){
     setDarkMode("dark-mode")
@@ -48,6 +48,10 @@ return(
     projects,
     setProjects,
     category,
+    categories,
+    setCategories, 
+    readMore, 
+    setReadMore
     }}>
     {children}
   </DanContext.Provider>
