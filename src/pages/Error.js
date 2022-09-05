@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import BackHome from '../components/BackHome'
 import { useNavigate } from 'react-router-dom'
 const Error = () => {
   const navigate = useNavigate()
+  useEffect(()=>{
+    setTimeout(() => {
+      navigate("/projects")
+    }, 5000)
+  },[navigate])
   return (
     <section className='section-center single-project'>
       <BackHome />
@@ -21,9 +26,6 @@ const Error = () => {
           </div>
         </article>
       </div>
-      {setTimeout(()=>{
-          navigate("/projects")
-      }, 6000)}
     </section>
   )
 }

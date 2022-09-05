@@ -17,7 +17,7 @@ const [darkMode, setDarkMode] = useState("dark-mode")
     return total
   }, ["ALL"])
 const [categories, setCategories] = useState(allCategories)
-const [readMore, setReadMore] = useState(false)
+const [readMore, setReadMore] = useState(true)
 const [stateCategory, setCategory] = useState("ALL")
 
   const handleClick = (e, category) => {
@@ -47,10 +47,10 @@ const filterProjects = (cat)=>{
     setProjects(data)
     return
   }
- const newProjects = data.filter(project=>project.category === cat)
+  let newProjects = [...data] 
+  newProjects = newProjects.filter(project=>project.category === cat)
   setProjects(newProjects)
 }
-
 
   
 return(
