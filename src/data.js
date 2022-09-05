@@ -5,7 +5,7 @@ const data = [
     image: "/images/quiz-main.jpg",
     title: "Quiz App",
     description: `I developed the Quiz App to showcase my knowledge and understanding of ReactJS in developing
-             interactive and responsive single-page applications. I used create react-app in building the App alongside several React Hooks such as the Context API, useEffect, and useState. I consumed a REST API that returns an array of random questions and answers which I massaged to creat the quiz app.`,
+             interactive and responsive single-page applications. I used create react-app in building the App alongside several React Hooks such as the Context API, useEffect, and useState. I consumed a REST API that returns an array of random questions and answers which I massaged to create the quiz app. I got the project idea from one of Scrimba's solo projects.`,
     github: "https://github.com/Danthesage01/quizzical",
     url: "https://r-quizzical.netlify.app/",
     technology: "HTML5, CSS3, ReactJS & Context API"
