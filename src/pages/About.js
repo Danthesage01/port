@@ -6,11 +6,11 @@ import BackHome from '../components/BackHome'
 const About = () => {
   return (
 
-    <section className=' about ' id='about'>
+    <section className='about ' id='about'>
       <BackHome />
       <div className='hero'>
         <div className="section-center">
-          <div className="section-title">
+          <div className="section-title about-title">
             <h2>meet me</h2>
           </div>
           <div className="about-center">
