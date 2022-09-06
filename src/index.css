@@ -742,6 +742,7 @@ Footer
   bottom: -55%;
   left: 100%;
   margin-left: -60px;
+  font-size: large;
   opacity: 0;
   transition: opacity 0.3s;
 }
