@@ -696,45 +696,10 @@ Footer
 /* ToolTip */
 .tooltip {
   position: relative;
-  /* display: inline-block; */
-  /* border-bottom: 1px dotted black; */
 }
-/* left */
-/* .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 80px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 2px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: -100%;
-  left: 100%;
-  margin-left: -70px;
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-.tooltip:hover .lefttooltiptext {
-  visibility: visible;
-  opacity: 1;
-} */
-
-/* Right */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 90px;
+  width: 85px;
   background-color: var(--black);
   color: var(--white);
   text-align: center;
