@@ -708,9 +708,10 @@ Footer
   position: absolute;
   z-index: 1;
   bottom: -55%;
-  left: 140%;
+  left: 150%;
   margin-left: -60px;
   opacity: 0;
+  font-size: smaller;
   transition: opacity 0.3s;
 }
 .tooltip .tooltiptext::after {
