@@ -699,7 +699,7 @@ Footer
 }
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 85px;
+  width: 80px;
   background-color: var(--black);
   color: var(--white);
   text-align: center;
@@ -708,7 +708,7 @@ Footer
   position: absolute;
   z-index: 1;
   bottom: -55%;
-  left: 125%;
+  left: 140%;
   margin-left: -60px;
   opacity: 0;
   transition: opacity 0.3s;
