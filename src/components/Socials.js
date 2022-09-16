@@ -5,7 +5,7 @@ const Socials = () => {
     <>
       <ul className="social-icons hero-icons">
         <li className='tooltip'>
-          <a href="https://drive.google.com/file/d/1oSU8BONSlzHtvkMRu87L_bt6Rpjnq4lv/view?usp=sharing" rel='noopener noreferrer' target="_blank" className='social-icon '>
+          <a href="https://drive.google.com/file/d/19BXK-KJ1aktLAPi_CrIMen_o6FeXeBAa/view?usp=sharing" rel='noopener noreferrer' target="_blank" className='social-icon '>
             <FaFilePdf />
           </a>
           <span className='tooltiptext'>Resumé</span>
