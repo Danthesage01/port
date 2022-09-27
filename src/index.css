@@ -541,7 +541,8 @@ Project
 }
 .card p {
   line-height: 1;
-  padding: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 .project-img {
   height: 20rem;
