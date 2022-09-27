@@ -541,6 +541,9 @@ Project
 }
 .card p {
   line-height: 1;
+  max-width: 250px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .project-img {
   height: 20rem;
