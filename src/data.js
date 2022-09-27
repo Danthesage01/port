@@ -24,11 +24,11 @@ const data = [
     id: 3,
     category: "REACT",
     image: "/images/shoe-main.jpg",
-    title: "Shoe Market",
-    description: `I developed the Shoe Market to showcase my knowledge and understanding of ReactJS and Javascript in developing modern, responsive and user-friendly single-page applications. I used React Hooks such as useState and useEffect alongside conditional rendering to create the app.`,
-    github: "https://github.com/Danthesage01/shoes",
-    url: "https://calm-shoes.netlify.app/",
-    technology: "HTML5, CSS3, & ReactJS"
+    title: "Sneakers Ecommerce",
+    description: `I developed the Sneakers Ecommerce Website to showcase my knowledge and understanding of JavaScript, ReactJS, and other third-party technologies such as Netlify Serverless Functions, Auth0 and Stripe to build a modern, responsive and user-friendly ecommerce application for 21st century business outfits. The ecommerce app features a Payment Gateway, User Authentication and other essential ecommerce features.`,
+    github: "https://github.com/Danthesage01/sneakers",
+    url: "https://re-sneakers.netlify.app",
+    technology: "ReactJS, Styled Components(CSS), Auth0 & Stripe"
   },
   {
     id: 4,
