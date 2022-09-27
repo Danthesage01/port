@@ -4,7 +4,7 @@ const Project = ({ id, technology, title }) => {
   return (
     <article className='card project'>
       <div>
-      <h4>{title} Project</h4>
+      <h4>{title}</h4>
       <h5>technology:</h5>
       <p>({technology})</p>
       </div>
