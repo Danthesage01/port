@@ -530,7 +530,7 @@ Project
 }
 .card {
   padding: 0.5rem 0;
-  height: 11rem;
+  min-height: 12rem;
   border: 1px solid var(--primary-5);
   background: var(--white);
   text-align: center;
@@ -545,6 +545,8 @@ Project
   padding-left: .5rem;
   padding-right: .5rem;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .project-img {
