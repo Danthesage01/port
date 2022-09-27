@@ -541,12 +541,8 @@ Project
 }
 .card p {
   line-height: 1;
-  /* max-width: fit-content; */
-  /* padding-left: .5rem;
-  padding-right: .5rem; */
-  /* display: flex;
-  flex-wrap: wrap;
-  text-align: center; */
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 .project-img {
   height: 20rem;
