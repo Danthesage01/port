@@ -643,7 +643,7 @@ Single project Page
   border-top-right-radius: var(--borderRadius);
 }
 .single-card-photo {
-  height: 25rem;
+  height: 15rem;
   object-fit: cover;
   border-top-left-radius: var(--borderRadius);
   border-top-right-radius: var(--borderRadius);
