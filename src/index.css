@@ -541,7 +541,9 @@ Project
 }
 .card p {
   line-height: 1;
-  max-width: 250px;
+  max-width: fit-content;
+  padding-left: .5rem;
+  padding-right: .5rem;
   display: flex;
   flex-wrap: wrap;
 }
