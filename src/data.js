@@ -28,7 +28,7 @@ const data = [
     description: `I developed the Sneakers Ecommerce Website to showcase my knowledge and understanding of JavaScript, ReactJS, and the integration of other third-party technologies such as Netlify Serverless Functions, Auth0 and Stripe to build a modern, responsive and user-friendly ecommerce application for 21st century business outfits. The ecommerce app features a Payment Gateway, User Authentication and other essential ecommerce features.`,
     github: "https://github.com/Danthesage01/sneakers",
     url: "https://re-sneakers.netlify.app",
-    technology: "ReactJS, Styled Components(CSS), Auth0 & Stripe"
+    technology: "ReactJS, Styled Components(CSS), Auth0 & Stripe, JavaScript"
   },
   {
     id: 4,
