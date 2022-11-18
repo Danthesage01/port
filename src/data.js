@@ -3,7 +3,7 @@ const data = [
     id: 1,
     category: "REACT",
     image: "/images/airbnb.jpg",
-    title: "Airbnb Clone",
+    title: "Airbnb Clone (In Progress)",
     description: `I am currently working on this Airbnb Clone to showcase my knowledge and understanding of React.js in developing
             modern, responsive and user-friendly applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app. I am currently using mock data as database on the application, however, I intend to integrate Firebase 9 for the database and authentication.`,
     github: "https://github.com/Danthesage01/airbnb",
