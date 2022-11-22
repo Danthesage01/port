@@ -76,13 +76,13 @@ const data = [
   {
     id: 8,
     category: "REACT",
-    image: "/images/shoe-main.jpg",
-    title: "Shoe Reviews",
-    description: `I developed Shoe Reviews to showcase my knowledge and understanding of Javascript and React.js in developing
-            modern, responsive and user-friendly single-page applications. I used create react-app.`,
-    github: "https://github.com/Danthesage01/shoes-reviews",
-    url: "https://r-shoes-reviews.netlify.app/",
-    technology: "JSX, CSS3, & ReactJS",
+    image: "/images/sellCategoryImage.jpg",
+    title: "Ib Houses",
+    description: `I built the Ib Houses Project to showcase my knowledge and understanding of React.js in developing
+            modern, responsive and user-friendly applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app.`,
+    github: "https://github.com/Danthesage01/ibhouses",
+    url: "https://ibhouses.netlify.app/",
+    technology: "JSX, CSS3, Tailwind, ReactJS, Firebase9",
   },
   {
     id: 9,
@@ -125,17 +125,6 @@ const data = [
     github: "https://github.com/Danthesage01/dogs-app",
     url: "https://dogsreact.netlify.app/",
     technology: "JSX, CSS3, ReactJS & React-Router-DOM",
-  },
-  {
-    id: 13,
-    category: "REACT",
-    image: "/images/sellCategoryImage.jpg",
-    title: "Ib Houses",
-    description: `I built the Ib Houses Project to showcase my knowledge and understanding of React.js in developing
-            modern, responsive and user-friendly applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app.`,
-    github: "https://github.com/Danthesage01/ibhouses",
-    url: "https://ibhouses.netlify.app/",
-    technology: "JSX, CSS3, Tailwind, ReactJS, Firebase9",
   },
 ];
 
