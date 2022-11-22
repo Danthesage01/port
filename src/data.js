@@ -8,7 +8,7 @@ const data = [
             modern, responsive and user-friendly applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app. I am currently using mock data as database on the application, however, I intend to integrate Firebase 9 for the database and authentication.`,
     github: "https://github.com/Danthesage01/airbnb",
     url: "https://zts-airbnb.netlify.app/",
-    technology: "HTML5, CSS-in-JS, ReactJS & React-Router-DOM",
+    technology: "JSX, CSS-in-JS, ReactJS & React-Router-DOM",
   },
   {
     id: 2,
@@ -50,7 +50,7 @@ const data = [
              interactive and responsive single-page applications. I used create react-app in building the App alongside several React Hooks such as the Context API, useEffect, and useState. I consumed a REST API that returns an array of random questions and answers which I massaged to create the quiz app. I got the project idea from one of Scrimba's solo projects.`,
     github: "https://github.com/Danthesage01/quizzical",
     url: "https://r-quizzical.netlify.app/",
-    technology: "HTML5, CSS3, ReactJS & Context API",
+    technology: "JSX, CSS3, ReactJS & Context API",
   },
   {
     id: 6,
@@ -82,7 +82,7 @@ const data = [
             modern, responsive and user-friendly single-page applications. I used create react-app.`,
     github: "https://github.com/Danthesage01/shoes-reviews",
     url: "https://r-shoes-reviews.netlify.app/",
-    technology: "HTML5, CSS3, & ReactJS",
+    technology: "JSX, CSS3, & ReactJS",
   },
   {
     id: 9,
@@ -114,7 +114,7 @@ const data = [
             modern, responsive and user-friendly single-page applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app. Also, I created and hosted a REST API server on Heroku that serves as the backend where the guests'list is stored and fetched for CRUD operations.`,
     github: "https://github.com/Danthesage01/updated-react-guestapp",
     url: "https://guest-app.netlify.app/",
-    technology: "HTML5, CSS3, ReactJS & React-Router-DOM",
+    technology: "JSX, CSS3, ReactJS & React-Router-DOM",
   },
   {
     id: 12,
@@ -124,7 +124,7 @@ const data = [
     description: `I built the Breed of Dogs App to showcase my knowledge and understanding of JavaScript (ES6+) and React.js in consuming REST API in developing useful software. The app features pagination, darkmode, and single-page rendering.I also used HTML5 & CSS Grid to make the app fully responsive.`,
     github: "https://github.com/Danthesage01/dogs-app",
     url: "https://dogsreact.netlify.app/",
-    technology: "HTML5, CSS3, ReactJS & React-Router-DOM",
+    technology: "JSX, CSS3, ReactJS & React-Router-DOM",
   },
   {
     id: 13,
