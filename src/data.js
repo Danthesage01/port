@@ -126,6 +126,17 @@ const data = [
     url: "https://dogsreact.netlify.app/",
     technology: "HTML5, CSS3, ReactJS & React-Router-DOM",
   },
+  {
+    id: 13,
+    category: "REACT",
+    image: "/images/sellCategoryImage.jpg",
+    title: "Ib Houses",
+    description: `I built the Ib Houses Project to showcase my knowledge and understanding of React.js in developing
+            modern, responsive and user-friendly applications. I used create react-app and utilised react-router-dom for easy navigations and routing within the app.`,
+    github: "https://github.com/Danthesage01/ibhouses",
+    url: "https://ibhouses.netlify.app/",
+    technology: "JSX, CSS3, Tailwind, ReactJS, Firebase9",
+  },
 ];
 
 export default data
