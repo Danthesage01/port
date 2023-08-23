@@ -18,8 +18,8 @@ const About = () => {
               <img src={headShot} alt="Daniel" className="about-photo" />
             </article>
             <article className="about-info">
-              <p>I am a frontend software developer skilled and experienced in using modern technologies, including HTML, CSS, JavaScript
-                and ReactJS, to develop responsive, user-friendly websites and web apps that create value and solve real-life problems.
+              <p>I am a full-stack developer skilled and experienced in using modern technologies, including HTML, CSS, JavaScript
+               ReactJS, TypeScript, Next.js and Node to develop responsive, user-friendly web apps that create value and solve real-life problems.
               </p>
               <p>
                 Before transitioning into Software Development, I was a writer who crafted high-quality and engaging technical content
