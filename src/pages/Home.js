@@ -9,7 +9,7 @@ const Home = () => {
         <article className='hero-info'>
           <div className="title-underline home-bounce"></div>
           <h1>Daniel Ayeni</h1>
-          <h4>A Frontend Developer</h4>
+          <h4>A Full-Stack Developer</h4>
           <Socials />
           <div className='hero-footer'>
             <Link to="/projects" className='btn hero-btn'>Projects</Link>
