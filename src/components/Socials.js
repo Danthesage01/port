@@ -34,7 +34,7 @@ const Socials = () => {
         </li>
         <li className="tooltip">
           <a
-            href="https://twitter.com/TheSageConcepts"
+            href="https://twitter.com/danthesage"
             rel="noopener noreferrer"
             target="_blank"
             className="social-icon"
