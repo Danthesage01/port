@@ -23,7 +23,7 @@ const About = () => {
               </p>
               <p>
                 Before transitioning into Software Development, I was a writer who crafted high-quality and engaging technical content
-                for varying industries, including but not limited to Blockchain, Cryptocurrency, iGaming and eCommerce. I also run a blog where I share my thoughts. <a href="https://danthesage.com/" className='blog-btn' rel='noopener noreferrer' target="_blank">Visit here.</a> 
+                for varying industries, including but not limited to Blockchain, Cryptocurrency, iGaming and eCommerce. I also run a blog where I share my thoughts. <a href="https://blog.danthesage.com/" className='blog-btn' rel='noopener noreferrer' target="_blank">Visit here.</a> 
               </p>
               <p>
                 Outside coding, I enjoy watching football, writing, travelling and surfing the internet.
