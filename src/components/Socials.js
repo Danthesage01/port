@@ -12,7 +12,7 @@ const Socials = () => {
       <ul className="social-icons hero-icons">
         <li className="tooltip">
           <a
-            href="https://docs.google.com/document/d/10NgtR7INA5yBhhfL0spVRxYbBnU2dI-W55O73SQFWHM/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1DPVyc36Xvi75V0PBO6Bb5AL3q7qhxw7D/view?usp=sharing"
             rel="noopener noreferrer"
             target="_blank"
             className="social-icon "
